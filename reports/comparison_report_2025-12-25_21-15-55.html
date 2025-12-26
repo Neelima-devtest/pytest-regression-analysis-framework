@@ -1,0 +1,27 @@
+<html><head><title>Test Comparison Report</title>
+<style>
+body { font-family: Arial, sans-serif; }
+h1 { color: #333; }
+h2 { color: #666; }
+.regressions { color: red; }
+.missing-old { color: orange; }
+.missing-new { color: orange; }
+.flaky { color: blue; }
+.successful { color: green; }
+</style></head><body>
+<h1>Test Comparison Report</h1>
+<h2>Regressions</h2><ul class="regressions">
+</ul>
+<h2>Missing Tests in Old Version</h2><ul class="missing-old">
+<li>tests/test_assert.py::test_zero_div</li>
+<li>tests/test_assert.py::test_pass_assertion</li>
+<li>tests/test_assert.py::test_fail</li>
+</ul>
+<h2>Missing Tests in New Version</h2><ul class="missing-new">
+<li>test_assert.test_pass_assertion</li>
+</ul>
+<h2>Flaky Tests</h2><ul class="flaky">
+</ul>
+<h2>Successful Tests</h2><ul class="successful">
+</ul>
+</body></html>

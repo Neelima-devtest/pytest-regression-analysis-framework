@@ -1,0 +1,42 @@
+<html><head><title>Test Comparison Report</title>
+<style>
+body { font-family: Arial, sans-serif; }
+h1 { color: #333; }
+h2 { color: #666; }
+.regressions { color: red; }
+.missing-new { color: orange; }
+.flaky { color: blue; }
+.successful { color: green; }
+.stats { color: purple; }
+</style></head><body>
+<h1>Test Comparison Report</h1>
+<h3 class="stats">Run ID: 20251226_162016</h3>
+<h3 class="stats">Total Session Duration: 8.68 seconds</h3>
+<h2>Regressions</h2><ul>
+<li>None</li>
+</ul>
+<h2>Newly added tests - Fail</h2><ul class="regressions">
+<li>tests/test_csv_data.py::test_subtract[TC007]</li>
+</ul>
+<h2>Newly added tests - Pass</h2><ul class="successful">
+<li>tests/test_csv_data.py::test_subtract[TC002]</li>
+<li>tests/test_csv_data.py::test_add[TC001]</li>
+<li>test_assert.test_pass_assertion</li>
+<li>tests/test_csv_data.py::test_add[TC004]</li>
+<li>tests/test_csv_data.py::test_add[TC003]</li>
+</ul>
+<h2>Missing Tests in New Version</h2><ul>
+<li>None</li>
+</ul>
+<h2>Flaky Tests</h2><ul>
+<li>None</li>
+</ul>
+<h2>Successful Tests</h2><ul class="successful">
+<li>tests/test_assert.py::test_zero_div</li>
+<li>tests/test_assert.py::test_pass_assertion</li>
+<li>tests/test_assert.py::test_fail</li>
+<li>tests/test_csv_data.py::test_add</li>
+<li>tests/test_csv_data.py::test_subtract</li>
+<li>tests/test_assert.py::test_xfail</li>
+</ul>
+</body></html>
