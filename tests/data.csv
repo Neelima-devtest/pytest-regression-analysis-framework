@@ -1,0 +1,7 @@
+test_id,description,operation,a,b,expected
+TC001,Add 2 nums,add,2,3,5
+TC002,sub 2 nums,sub,5,2,3
+TC003,Add 2 nums,add,2,3,5
+TC004,Add 2 nums,add,4,3,7
+TC005,Mul 2 nums,mul,4,3,12
+TC007,sub 2 nums,sub,5,2,7
