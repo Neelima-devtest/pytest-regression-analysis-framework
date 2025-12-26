@@ -1,4 +1,4 @@
-Goal 
+Goal - A simple end to end framework for regression analysis.
 
   To run tests in "tests" directory using the the config in "pytest.ini". Every run has a unique runid.
   
