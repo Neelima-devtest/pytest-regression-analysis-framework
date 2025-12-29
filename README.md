@@ -1,7 +1,7 @@
-# Pytest Regression Analytics Framework
+# Pytest Regression Analysis Framework
 
 ## Overview
-This project is a production-grade test automation framework built using **pytest**, designed to go beyond basic test execution by providing **historical test analytics, intelligent regression detection, and CI/CD integration**.
+This project is a production-grade test automation framework built using **pytest**, designed to go beyond basic test execution by providing **historical test analytics, regression detection, and CI/CD integration**.
 
 Instead of treating test results as disposable, the framework persists results in a database and analyzes them across runs and application versions to detect:
 - True regressions
@@ -51,7 +51,7 @@ Stored fields include:
 
 ---
 
-### 4. Intelligent Regression Detection
+### 4. Regression Detection
 Compares **previous vs current application versions** using aggregated results:
 
 | Scenario | Classification |
@@ -105,11 +105,4 @@ This framework answers:
 
 ---
 
-## Future Enhancements
-- Trend charts (pass rate over time)
-- Bulk DB inserts for performance
-- Allure integration
-- AI-assisted failure analysis
-
----
 
