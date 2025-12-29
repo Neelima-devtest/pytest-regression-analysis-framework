@@ -57,7 +57,6 @@ Compares **previous vs current application versions** using aggregated results:
 | Scenario | Classification |
 |--------|----------------|
 | PASS → FAIL | Regression |
-| FAIL → PASS | Fixed |
 | FAIL intermittently | Flaky |
 | PASS consistently | Stable |
 | New test failing | Regression |
